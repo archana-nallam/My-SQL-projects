@@ -1,0 +1,4 @@
+# Getting count of all records from table "all_prevalences"
+
+SELECT count(*) as total_count FROM all_prevalences
+
