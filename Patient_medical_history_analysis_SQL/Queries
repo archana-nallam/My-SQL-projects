@@ -2,4 +2,4 @@
 
 SELECT count(*) as total_count FROM all_prevalences
 
-@(https://download.data.world/s/jhiqguzmpd3rsqqfehclwpcuaxzggk)
+[output](https://download.data.world/s/jhiqguzmpd3rsqqfehclwpcuaxzggk)
