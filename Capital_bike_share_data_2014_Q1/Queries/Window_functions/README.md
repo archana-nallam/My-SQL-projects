@@ -6,3 +6,13 @@ OVER clause is used with window functions to define that window. OVER clause doe
 
 Partitions rows into form set of rows. (PARTITION BY clause is used) 
 Orders rows within those partitions into a particular order. (ORDER BY clause is used)
+
+## Basic Syntax :  
+
+SELECT coulmn_name1, 
+
+ window_function(cloumn_name2)
+ 
+ OVER([PARTITION BY column_name1] [ORDER BY column_name3]) AS new_column
+ 
+FROM table_name;
