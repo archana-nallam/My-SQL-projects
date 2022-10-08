@@ -1,5 +1,7 @@
 NTILE
-You can use window functions to identify what percentile (or quartile, or any other subdivision) a given row falls into. The syntax is NTILE(*# of buckets*). In this case, ORDER BY determines which column to use to determine the quartiles (or whatever number of 'tiles you specify)
+You can use window functions to identify what percentile (or quartile, or any other subdivision) a given row falls into. 
+The syntax is NTILE(*# of buckets*). In this case, ORDER BY determines which column to use to determine the quartiles 
+(or whatever number of 'tiles you specify)
 
 
 SELECT start_station,
